@@ -29,8 +29,8 @@ namespace ReCapDemoDama
 
             Button[,] buttons = new Button[8,8]; // button nesnesi oluşturuldu.
 
-            int top = 0;    // asagı olan uzaklık
-            int left = 0; // sola olan uzaklık
+            int tops = 0;    // asagı olan uzaklık
+            int lefts = 0; // sola olan uzaklık
 
             // GetUpperBound 0.boyutun en büyük alabileceği değerdir.buda 7'dir.
             // 8 satır için bir değer oluşturduk.

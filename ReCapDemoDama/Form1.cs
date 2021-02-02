@@ -41,9 +41,9 @@ namespace ReCapDemoDama
                     buttons[i, j] = new Button(); // ilk buton bizim için yeni bir butondur.
                     buttons[i, j].Width = 50;
                     buttons[i, j].Height = 50;
-                    buttons[i, j].Left = left; // sola olan uzaklık.
-                    buttons[i, j].Top = top; //top=0 ilk 8 buton için.
-                    left += 50; // butonları yan yana dizdi.
+                    buttons[i, j].Left = lefts; // sola olan uzaklık.
+                    buttons[i, j].Top = tops; //top=0 ilk 8 buton için.
+                    lefts += 50; // butonları yan yana dizdi.
 
                     if ((i+j)%2==0) // background algoritması..
                     {
@@ -57,8 +57,8 @@ namespace ReCapDemoDama
 
 
                 }
-                top += 50; // 2.satır için top her defasında 50,50 artar.
-                left = 0; // ikinci satıra geçti.
+                tops += 50; // 2.satır için top her defasında 50,50 artar.
+                lefts = 0; // ikinci satıra geçti.
 
                 //8*8 button arrayi oluştu.
 
